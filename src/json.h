@@ -25,7 +25,7 @@ typedef struct json_array_t
 typedef union json_number_t
 {
     double num_real;
-    uint64_t num_int;
+    int64_t num_int;
 } json_number_t;
 
 typedef union json_stuff_t
